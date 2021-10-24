@@ -1,10 +1,7 @@
 
-html {
-    font-family:
-    "Source Sans Pro", Arial, "Helvetica Neue", Helvetica,
-    sans-serif;;
-        }
+
         h1 {
+        font-family: 'Oswald', sans-serif;
         color:#f04c25;
         font-size:   30px;
         line-height: 26px;
@@ -13,7 +10,8 @@ html {
         margin-inline: 629px;
       }
       .h2 {
-        color:#009cab;
+        font-family: 'Roboto Mono', monospace;
+        color: #E5ECF4;
         font-size:   25px;
         line-height: 20px;
         font-weight: normal;
@@ -22,19 +20,24 @@ html {
         
       }
       .h3 {
-        color:#009cab;
-        font-size: 20px;
+        font-family: 'Roboto Mono', monospace;
+        color: #E5ECF4;
+        font-size: 25px;
         margin-inline: 629px;
+        font-weight: initial;
+        font-weight: bolder;
       }
       .h4 {
-        color:#009cab;
+        font-family: 'Roboto Mono', monospace;
+        color: #E5ECF4;
         font-size: 25px;
         font-weight: bolder;
         margin-inline: 629px;
         
       }
       p {
-        color: whitesmoke;
+        font-family: 'Zen Old Mincho', serif;
+        color: BLACK;
         font-size: 16px;
         line-height: 20px;
         font-weight: 300;
@@ -61,12 +64,12 @@ html {
     
     .topnav {
       overflow: hidden;
-      background-color: #009cab;
+      background-color: rgb(255, 255, 255);
     }
     
     .topnav a {
       float: left;
-      color: #f2f2f2;
+      color: black;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -79,18 +82,22 @@ html {
     }
     
     .topnav a.active {
-      background-color: #a0e0e5b6;
+      background-color:  rgb(80, 77, 77);
       color: white;
     }
     
     body {
-      background-color: #07737a6e;
+      background-color: #8A4FFF;
     }
     
     a {
-    color: #f04c25;
+    color: #E0140E;
 
     }
-    Nav a{
+    Nav a {
     Margin-left: 13rem
+    }
+    img {
+      height: auto 50px;
+      width: auto 50px;
     }
