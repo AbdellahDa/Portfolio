@@ -1,103 +1,99 @@
+h1 {
+  font-family: "Oswald", sans-serif;
+  color: #f04c25;
+  font-size: 30px;
+  line-height: 26px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-inline: 629px;
+}
+.h2 {
+  font-family: "Roboto Mono", monospace;
+  color: #e5ecf4;
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: normal;
+  margin-inline: 629px;
+  font-weight: bolder;
+}
+.h3 {
+  font-family: "Roboto Mono", monospace;
+  color: #e5ecf4;
+  font-size: 25px;
+  margin-inline: 629px;
+  font-weight: initial;
+  font-weight: bolder;
+}
+.h4 {
+  font-family: "Roboto Mono", monospace;
+  color: #e5ecf4;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-inline: 629px;
+}
+p {
+  font-family: "Zen Old Mincho", serif;
+  color: BLACK;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  margin-left: 630px;
+}
+figure {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+navbar-nav {
+  text-align: left;
+  text-align: right;
+  text-align: middle;
+  text-align: top;
+  text-align: bottom;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.topnav {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
 
-        h1 {
-        font-family: 'Oswald', sans-serif;
-        color:#f04c25;
-        font-size:   30px;
-        line-height: 26px;
-        font-weight: 600;
-        margin-top: 50px;
-        margin-inline: 629px;
-      }
-      .h2 {
-        font-family: 'Roboto Mono', monospace;
-        color: #E5ECF4;
-        font-size:   25px;
-        line-height: 20px;
-        font-weight: normal;
-        margin-inline: 629px;
-        font-weight: bolder;
-        
-      }
-      .h3 {
-        font-family: 'Roboto Mono', monospace;
-        color: #E5ECF4;
-        font-size: 25px;
-        margin-inline: 629px;
-        font-weight: initial;
-        font-weight: bolder;
-      }
-      .h4 {
-        font-family: 'Roboto Mono', monospace;
-        color: #E5ECF4;
-        font-size: 25px;
-        font-weight: bolder;
-        margin-inline: 629px;
-        
-      }
-      p {
-        font-family: 'Zen Old Mincho', serif;
-        color: BLACK;
-        font-size: 16px;
-        line-height: 20px;
-        font-weight: 300;
-        margin-left: 630px
-        
-      }
-      figure {
-        float: left;
-        margin: 0 20px 20px 0;
-        
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-    }
-     navbar-nav {
-      text-align: left;
-      text-align: right;
-      text-align: middle;
-      text-align: top;
-      text-align: bottom;
-    }
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .topnav {
-      overflow: hidden;
-      background-color: rgb(255, 255, 255);
-    }
-    
-    .topnav a {
-      float: left;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-    
-    .topnav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-    
-    .topnav a.active {
-      background-color:  rgb(80, 77, 77);
-      color: white;
-    }
-    
-    body {
-      background-color: #8A4FFF;
-    }
-    
-    a {
-    color: #E0140E;
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
-    }
-    Nav a {
-    Margin-left: 13rem
-    }
-    img {
-      height: auto 50px;
-      width: auto 50px;
-    }
+.topnav a.active {
+  background-color: rgb(80, 77, 77);
+  color: white;
+}
+
+body {
+  background-color: #8a4fff;
+}
+
+a {
+  color: #e0140e;
+}
+Nav a {
+  margin-left: 13rem;
+}
+img {
+  height: auto 50px;
+  width: auto 50px;
+  border: black solid 2px;
+  border-radius: 10%;
+  margin-left: 50%;
+  margin-top: -30%;
+}
